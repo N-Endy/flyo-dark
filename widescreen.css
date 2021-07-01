@@ -1,0 +1,195 @@
+body {
+    overflow-x: hidden;
+}
+
+.header .nav-bar {
+    padding: 2rem 1.2rem;
+}
+
+.header .nav-bar img {
+    height: 30%;
+    width: 30%;
+}
+
+.header .nav-bar ul li a {
+    padding: 0 0.5rem;
+}
+
+.header > img {
+    height: 85%;
+    width: 85%;
+}
+
+.header h1 {
+    width: 100%;
+    font-size: 25px;
+    padding: 0.5rem;
+}
+
+.header p {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.header > a {
+    padding: 0.7rem 3.5rem;
+}
+
+.section-pic {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-pic .grid-items {
+    width: 100vw;
+    padding: 3rem 2rem;
+}
+
+.section-pic .grid-items img {
+    margin-bottom: 1.5rem;
+}
+
+.section-pic .grid-items h3 {
+    font-size: 20px;
+}
+
+.section-pic .grid-items p,
+.section-pic .grid-items h3 {
+    width: 100%;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.productive {
+    flex-direction: column;
+    width: 100vw;
+    padding: 0;
+}
+
+.productive > img {
+    width: 100vw;
+    padding: 0 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.productive .productive-text {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.productive .productive-text h2 {
+    width: 100%;
+    padding: 0 0.5rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+.productive .productive-text h2 br {
+    display: none;
+}
+
+.productive .productive-text p {
+    padding: 0 1.4rem;
+}
+
+.productive .productive-text a {
+    padding: 0 1.4rem;
+}
+
+.productive .productive-text a:after {
+    left: 1.4rem;
+}
+
+.reviews {
+    flex-direction: column;
+    padding: 0 1.4rem;
+}
+
+.reviews .review {
+    margin: 1rem 0;
+    padding: 2rem 1.5rem;
+}
+
+.reviews .review p {
+    line-height: 1.7;
+}
+
+ .early-access {
+    left: 2.5rem;
+    bottom: -16%;
+    width: 90%;
+    padding: 1.5rem;
+}
+
+
+.footer {
+    padding: 0 1.5rem;
+    padding-top: 15rem;
+}
+
+.footer div {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+    margin-bottom: 0.5rem;
+}
+
+.footer div > * {
+    width: 100%;
+}
+
+.footer div .one {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    'img p'
+    'ul ul';
+    width: 90vw;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.footer div .one img {
+    grid-area: img;
+    padding-right: 2rem;
+}
+
+.footer div .one p {
+    grid-area: p;
+    padding-right: 1.5rem;
+}
+
+.footer div .one ul {
+    grid-area: ul;
+}
+
+.footer div .one ul li a {
+    margin-left: 0;
+}
+
+.footer div .one > * {
+    margin-bottom: 1rem;
+}
+
+.footer div .two {
+    margin-left: -1.5rem;
+}
+
+.footer div .two ul {
+    margin-bottom: 2rem;
+}
+
+.footer div .two > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.footer div .two > div > * {
+    width: 2rem;
+    padding: 0.5rem;
+}
