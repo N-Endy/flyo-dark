@@ -37,6 +37,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: var(--main-bg);
     color: var(--white);
+    overflow-x: hidden;
 }
 
 /* Header */
@@ -65,7 +66,7 @@ body {
 .header .nav-bar ul li a {
     padding: 0 2rem;
     font-size: var(--font-size);
-    color: #f3f3f388;
+    color: #f3f3f3af;
     text-decoration: none;
 }
 
