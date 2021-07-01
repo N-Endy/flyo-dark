@@ -296,6 +296,7 @@ main {
     justify-content: space-between;
     align-items: center;
     font-size: var(--font-size);
+    margin-bottom: 2rem;
 }
 
 .footer div .one {
