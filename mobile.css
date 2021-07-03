@@ -1,4 +1,4 @@
-body {
+body, html {
     overflow-x: hidden;
 }
 
@@ -104,6 +104,10 @@ body {
 .reviews {
     flex-direction: column;
     padding: 0 1.4rem;
+}
+
+.reviews .big-quote {
+    left: 30px;
 }
 
 .reviews .review {

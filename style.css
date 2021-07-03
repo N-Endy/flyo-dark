@@ -186,10 +186,18 @@ main {
 
 /* Reviews */
 .reviews {
+    position: relative;
     display: flex;
     margin-bottom: 20rem;
     padding: 0 6rem;
     font-size: var(--font-size);
+}
+
+.reviews .big-quote {
+    position: absolute;
+    top: -20px;
+    left: 115px;
+    z-index: -1;
 }
 
 .reviews .review {
